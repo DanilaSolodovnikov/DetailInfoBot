@@ -2,11 +2,11 @@ import telebot
 from telebot import types
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-bot = telebot.TeleBot('7184826558:AAHRDE3yOjBrcLfRG1OvxnxlBbYVTJ0nqug')
+bot = telebot.TeleBot('YOUR_TOKEN')
 user_id = {}
 
 
-procedures_info = {"1": {"description": 'huilaaaaaaa',"photo_before": "before1.png", "photo_after": 'after1.png'},
+procedures_info = {"1": {"description": 'Описание 1 процедуры',"photo_before": "before1.png", "photo_after": 'after1.png'},
                    "2": {"description": 'Описание 2 процедуры',"photo_before": "before2.png", "photo_after": 'after2.png'},
                    "3": {"description": 'Описание 3 процедуры',"photo_before": "before3.png", "photo_after": 'after3.png'},
                    "4": {"description": 'Описание 4 процедуры',"photo_before": "before4.png", "photo_after": 'after4.png'},
