@@ -46,4 +46,3 @@ def procedure_info(call):
 
 
 bot.polling(none_stop=True)
-PIDARAS
